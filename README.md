@@ -19,6 +19,10 @@ CPU Scheduling Algorithms:
 <img width="435" height="822" alt="image" src="https://github.com/user-attachments/assets/3c5cd217-26ec-4783-a15e-f408edea3cf9" />
 
 
+
+
+
+
 🧠 Memory Layout
 <img width="428" height="315" alt="image" src="https://github.com/user-attachments/assets/9ba8a165-d686-4fe3-ac8d-c1494ffbb177" />
 
@@ -27,6 +31,10 @@ Total Size = 40 Words
 
 🔄 Process Lifecycle
    <img width="322" height="644" alt="image" src="https://github.com/user-attachments/assets/784113b7-0649-4cc3-a4d3-5b503f6d7297" />
+
+
+
+
 
 
 🧠 Scheduling Algorithms Demonstration
@@ -44,6 +52,10 @@ Explanation:
  -Each process runs for max 2 units
  -If unfinished → goes back to queue
  -Fair but causes frequent context switching
+
+
+
+
 
 
 🔹 Highest Response Ratio Next (HRRN)
@@ -64,6 +76,10 @@ Explanation:
  -Balances fairness and efficiency
 
 
+
+
+
+
  🔹 Multilevel Feedback Queue (MLFQ)
 <img width="341" height="206" alt="image" src="https://github.com/user-attachments/assets/a1a8a059-44a5-4bd3-a4a8-ff6fa256aab7" />
 
@@ -80,8 +96,17 @@ Move to Q2
 Move to Q3
 
 
+
+
+
+
 🎯 Purpose
 This project bridges the gap between theoretical OS concepts and practical implementation by simulating how real operating systems manage resources, schedule processes, and execute programs.
+
+
+
+
+
 
 
 Screenshot executing the RR algorithm: 
