@@ -16,69 +16,18 @@ CPU Scheduling Algorithms:
   -Round Robin (RR)
   -Multilevel Feedback Queue (MLFQ)
 
-+----------------------+
-|        CPU           |
-|  (Executes Instr.)   |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|     Scheduler        |
-| (HRRN / RR / MLFQ)   |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|     Ready Queue      |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|       Memory         |
-|  (40 Words Total)    |
-+----------+-----------+
-           |
-           v
-+----------------------+
-|        PCB           |
-| Process Metadata     |
-+----------------------+
+<img width="435" height="822" alt="image" src="https://github.com/user-attachments/assets/3c5cd217-26ec-4783-a15e-f408edea3cf9" />
+
 
 🧠 Memory Layout
-+----------------------------------+
-| Process 1 Instructions & Data    |
-+----------------------------------+
-| Process 2 Instructions & Data    |
-+----------------------------------+
-| Process 3 Instructions & Data    |
-+----------------------------------+
-|     Free / Unused Space          |
-+----------------------------------+
+<img width="428" height="315" alt="image" src="https://github.com/user-attachments/assets/9ba8a165-d686-4fe3-ac8d-c1494ffbb177" />
+
 Total Size = 40 Words
 
 
 🔄 Process Lifecycle
-        +--------+
-        |  New   |
-        +---+----+
-            |
-            v
-        +--------+
-        | Ready  |
-        +---+----+
-            |
-            v
-        +--------+
-        |Running |
-        +---+----+
-         /     \
-        v       v
-  +--------+  +-----------+
-  |Blocked |  |Terminated |
-  +--------+  +-----------+
-        |
-        v
-      Ready
+   <img width="322" height="644" alt="image" src="https://github.com/user-attachments/assets/784113b7-0649-4cc3-a4d3-5b503f6d7297" />
+
 
 🧠 Scheduling Algorithms Demonstration
 🔹 Round Robin (RR)
@@ -116,13 +65,8 @@ Explanation:
 
 
  🔹 Multilevel Feedback Queue (MLFQ)
- +-----------------------------+
-| Queue 1 (High, q=1)         |
-+-----------------------------+
-| Queue 2 (Medium, q=2)       |
-+-----------------------------+
-| Queue 3 (Low, FCFS)         |
-+-----------------------------+
+<img width="341" height="206" alt="image" src="https://github.com/user-attachments/assets/a1a8a059-44a5-4bd3-a4a8-ff6fa256aab7" />
+
 
 
 New Process → Q1
