@@ -1,0 +1,17 @@
+BEGIN P1
+P1 PCB ID 1
+P1 PCB State Ready
+P1 PCB PC 0
+P1 PCB Start -1
+P1 PCB End -1
+P1 Instruction 0 |semWait userInput
+P1 Instruction 1 |assign x input
+P1 Instruction 2 |assign y input
+P1 Instruction 3 |semSignal userInput
+P1 Instruction 4 |semWait userOutput
+P1 Instruction 5 |printFromTo x y
+P1 Instruction 6 |semSignal userOutput
+P1 Variable NULL | NULL
+P1 Variable NULL | NULL
+P1 Variable NULL | NULL
+END P1
