@@ -16,7 +16,7 @@ CPU Scheduling Algorithms:
   -Round Robin (RR)
   -Multilevel Feedback Queue (MLFQ)
 
-  +----------------------+
++----------------------+
 |        CPU           |
 |  (Executes Instr.)   |
 +----------+-----------+
